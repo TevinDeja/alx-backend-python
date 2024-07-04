@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-type-annotated function using TypeVar
+type-annotated function
 """
 
 from typing import Mapping, Any, Union,  TypeVar
