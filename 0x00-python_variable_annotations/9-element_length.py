@@ -2,6 +2,7 @@
 """
 type-annotated function
 """
+
 from typing import Iterable, List, Tuple
 
 
