@@ -3,7 +3,6 @@
 import asyncio
 from typing import List
 
-
 task_wait_random = __import__('3-tasks').task_wait_random
 
 
@@ -13,7 +12,7 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
 
     Args:
         n (int): The number of times to spawn task_wait_random.
-        max_delay (int): The maximum delay in seconds for each task_wait_random call.
+        max_delay (int): The maximum delay in seconds.
 
     Returns:
         List[float]: List of all the delays in ascending order.
