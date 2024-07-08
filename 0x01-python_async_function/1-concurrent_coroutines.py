@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
 """
-Module that defines an asynchronous routine wait_n
+Module for wait_n coroutine
 """
 import asyncio
 from typing import List
-from 0-basic_async_syntax import wait_random
+
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
-    Asynchronous routine that spawns wait_random n times with the specified max_delay.
-
+    Spawns wait_random n times with the specified max_delay.
+    
     Args:
         n (int): The number of times to spawn wait_random.
-        max_delay (int): The maximum delay in seconds for each wait_random call.
-
+        max_delay (int): The maximum delay for each wait_random call.
+    
     Returns:
         List[float]: List of all the delays in ascending order.
     """
