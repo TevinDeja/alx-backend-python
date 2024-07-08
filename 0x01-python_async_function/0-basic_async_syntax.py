@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module that defines an asynchronous coroutine wait_random
+Module defines an asynchronous coroutine
 """
 import asyncio
 import random
